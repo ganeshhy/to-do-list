@@ -3,6 +3,7 @@
     <h1>Vue + Firestore CRUD (Tasks)</h1>
 
     <form @submit.prevent="addTask">
+      <h1>Add Task</h1>
       <input v-model="newTask" placeholder="New task" />
       <button type="submit">Add</button>
     </form>
